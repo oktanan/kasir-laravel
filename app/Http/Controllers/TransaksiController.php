@@ -79,7 +79,7 @@ class TransaksiController extends Controller
             Temp::truncate();
         }
 
-        return view('transaksi.index', compact('transaksi', 'transaksiDetails'));
+        return view('transaksi.nota', compact('transaksi', 'transaksiDetails'));
     }
 
     /**
